@@ -68,4 +68,3 @@ src/app.py: Launches a Gradio UI where users can upload PDFs and chat with the b
 ## 🖥️ Run the Application
 
 python src/app.py
-Once running, visit http://127.0.0.1:7860 in your browser.
