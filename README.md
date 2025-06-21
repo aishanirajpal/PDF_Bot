@@ -23,19 +23,7 @@ PDFChatBot is a Python-based chatbot designed to answer questions based on the c
 2. Enter your questions in the text box.
 3. Click the "Send" button to submit your question.
 4. View the chat history and responses in the interface.
-![image](https://github.com/Niez-Gharbi/PDF-RAG-with-Llama2-and-Gradio/assets/57814219/77b76c05-86fe-4020-8c7a-cf3d7402dcfd)
-
-# 📄 PDF_Bot – Ask Questions from Any PDF
-
-**PDF_Bot** is an AI-powered chatbot that lets you upload a PDF and ask questions about its content. It utilises LLMs from Hugging Face, vector-based retrieval with LangChain, and a visually appealing Gradio interface for user interaction.
-
-## 🚀 Features
-
-- ✅ Upload any PDF (text-based)
-- 💬 Ask natural language questions
-- 📚 Answers are based on actual document context
-- ⚙️ Built using LangChain + Hugging Face + Gradio
----
+5. 
 ## 📦 Setup Instructions
 
 ### 1️⃣ Clone the Repository
