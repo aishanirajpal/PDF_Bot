@@ -23,44 +23,42 @@ PDFChatBot is a Python-based chatbot designed to answer questions based on the c
 2. Enter your questions in the text box.
 3. Click the "Send" button to submit your question.
 4. View the chat history and responses in the interface.
-5. 
 ## 📦 Setup Instructions
 
 ### 1️⃣ Clone the Repository
-git clone https://github.com/aishanirajpal/PDF_Bot.git
-cd PDF_Bot
+- git clone https://github.com/aishanirajpal/PDF_Bot.git
+- cd PDF_Bot
 
 ### 2️⃣ Create a Python 3.10 Virtual Environment
 
-py -3.10 -m venv .venv
-.\.venv\Scripts\activate
+- py -3.10 -m venv .venv
+- .\.venv\Scripts\activate
 
 On Mac/Linux:
-python3.10 -m venv .venv
-source .venv/bin/activate
+- python3.10 -m venv .venv
+- source .venv/bin/activate
 
 ### 3️⃣ Install Dependencies
-pip install -r requirements.txt
-⚠️ Includes fixed versions of huggingface_hub, sentence-transformers, torch, and gradio.
+- pip install -r requirements.txt
+- ⚠️ Includes fixed versions of huggingface_hub, sentence-transformers, torch, and gradio.
 
-🔐 Generate and Use a Hugging Face Token
-Step 1: Get your token
+- 🔐 Generate and Use a Hugging Face Token
+- Step 1: Get your token
 👉 https://huggingface.co/settings/tokens
 
-Click “New Token”, name it PDF_Bot, and enable:
+- Click “New Token”, name it PDF_Bot, and enable:
 
-✅ Read access to public gated repositories
+- ✅ Read access to public gated repositories
 
-Step 2: Login using CLI
+- Step 2: Login using CLI
 
-huggingface-cli login
+- huggingface-cli login
 Then:
+- Paste the token
 
-Paste the token
+- Type Y to add as a Git credential
 
-Type Y to add as a Git credential
-
-✅ You're now authenticated!
+- ✅ You're now authenticated!
 
 ## 🧠 How It Works
 src/pdfchatbot.py: Extracts text from your PDF, creates vector embeddings with sentence-transformers, and uses LangChain’s retrieval + generation to answer your queries.
